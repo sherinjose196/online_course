@@ -1,0 +1,24 @@
+ul.ulsub_menu {
+    position: absolute;
+    left: 158px;
+    top: -6px;
+    width: 150px;
+    padding: 0;
+
+    display: none;
+    list-style: none;
+    border: #eee 2px solid;
+    background: #fff;
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+ul.ulsub_menu li{
+    padding: 10px;
+    padding: 3px 20px;
+}
+
+.dropdown-menu li:hover > ul.ulsub_menu {
+    display: block;
+}
